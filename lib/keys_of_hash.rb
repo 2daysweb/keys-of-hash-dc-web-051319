@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(hash, *values)
+  def keys_of(*values)
     matching_keys = []
   values.each do |value|
     hash.each do |key1, value1|
